@@ -6,11 +6,12 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /**
- * Represents a hand of playing cards.
- * Provides methods for analyzing the hand.
+ * Represents a hand of playing cards. Provides methods for analyzing the hand.
+ *
  * @author kristianselmer
  */
 public class CardHand {
+
   private final List<PlayingCard> cards;
 
   /**
@@ -59,8 +60,8 @@ public class CardHand {
   }
 
   /**
-   * Returns the total sum of all card values in the hand.
-   * Ace is counted as 1, and other cards retain their face value.
+   * Returns the total sum of all card values in the hand. Ace is counted as 1, and other cards
+   * retain their face value.
    *
    * @return The sum of all card values.
    */
